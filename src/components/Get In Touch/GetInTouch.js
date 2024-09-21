@@ -2,20 +2,20 @@ import React from "react";
 
 import classes from "./GetInTouch.module.css";
 import ContactForm from "./ContactForm";
-
+import LinkedIn from "@mui/icons-material/LinkedIn";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import SendIcon from '@mui/icons-material/Send';
 
 import PersonalData from "../../Data/PersonalData";
 import { useSelector } from "react-redux";
 
-const data = [PersonalData.address,PersonalData.email, PersonalData.mobNo];
+const data = [PersonalData.address,PersonalData.email, PersonalData.linkedIn];
 
 const GetInTouch = (props) => {
 
     const uiColor=useSelector(state=>state.uiColor);
     const nonThemeColor=useSelector(state=>state.nonThemeColor);
-    const Icons=[<LocationOnIcon fontSize="large"/>,<SendIcon fontSize="large"/>];
+    const Icons=[<LocationOnIcon fontSize="large"/>,<SendIcon fontSize="large"/>,<LinkedIn fontSize="large"/> ];
 
     const contactDetails = data.map((item, index) =>
         <div className={classes.contactCard} style={{color:nonThemeColor}} key={index}>
