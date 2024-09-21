@@ -25,9 +25,6 @@ const AboutMe = () => {
                     <div className={classes.contactLinks}>
                         <SocialLinks className={classes.links} />
                     </div>
-                    <a href={PersonalData.resumeLink} target='_blank noreferrer'>
-                        <Button className={classes.resumeBtn}>See My Resume</Button>
-                    </a>
                 </div>
             </div>
            
