@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import Education from './components/Education/Education';
 // import Certifications from "./components/Certifications/Certifications";
 import Projects from "./components/Projects/Project";
+import GetInTouch from './components/Get In Touch/GetInTouch';
 import AboutMe from "./components/About Me/AboutMe";
 import { useSelector } from "react-redux";
 import Mode from './theme/mode';
@@ -23,9 +24,10 @@ const App = () => {
         <div className="App" style={theme}>
             <Navbar />
             <Home />
+            <AboutMe />
             <Education />
             <Projects />
-            <AboutMe />
+            <GetInTouch />
             <Footer />
             <Mode/>
         </div>

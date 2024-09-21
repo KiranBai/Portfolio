@@ -5,7 +5,6 @@ import ContactForm from "./ContactForm";
 
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import SendIcon from '@mui/icons-material/Send';
-import CallIcon from '@mui/icons-material/Call';
 
 import PersonalData from "../../Data/PersonalData";
 import { useSelector } from "react-redux";
@@ -16,7 +15,7 @@ const GetInTouch = (props) => {
 
     const uiColor=useSelector(state=>state.uiColor);
     const nonThemeColor=useSelector(state=>state.nonThemeColor);
-    const Icons=[<LocationOnIcon fontSize="large"/>,<SendIcon fontSize="large"/>,<CallIcon fontSize="large"/>];
+    const Icons=[<LocationOnIcon fontSize="large"/>,<SendIcon fontSize="large"/>];
 
     const contactDetails = data.map((item, index) =>
         <div className={classes.contactCard} style={{color:nonThemeColor}} key={index}>

@@ -1,13 +1,12 @@
 const PersonalData = {
     firstName: "Maha",
-    lastName: "baig",
+    lastName: "Baig",
     nickName:"<  maha - baig >",
-    mobNo:"+92 3367927715",
     email:"mbaig7366@gmail.com",
     address:"Toronto, Canada ",
-    aboutMe:"Hi Everyone, I am Maha Baig from Toronto, Canada.I learned C, C++, Python,HTML, CSS and JavaScript etc, Worked with libraries & frameworks like ReactJS, NodeJS. Have a keen knowledge of databases like MySQL, MongoDB and Firebase. Eager to contribute to innovative projects and gain hands-on experience in a dynamic and collaborative",
+    aboutMe:"Hello everyone, I’m Maha Baig from Toronto, Canada. I have experience with programming languages such as C, C++, Python, HTML, CSS, and JavaScript. I have worked with libraries and frameworks like ReactJS and NodeJS, and I possess a solid understanding of Firebase. I am eager to contribute to innovative projects and gain hands-on experience in a dynamic and collaborative environment.",
     resumeLink:'https://drive.google.com/file/d/1LQKo3ZyMe58-kAvi6kwQRe1XrhBiYuDS/view?usp=sharing',
     imageUrl:''
 }
-export const autoTypeData=['3rd Sem IT UnGrad', 'Frontend Developer','Computer Programmers', 'Logic oriented'];
+export const autoTypeData=['Computer Programmer', 'Computer Engineering Undergrad','problem-solver and critical thinker'];
 export default PersonalData;

@@ -21,8 +21,8 @@ const Projects = (props) => {
                     <img src={projectCoverImg} alt="" />
                 </section>
                 <section className={styles.projectHeader}>
-                    <h1><span style={{ color: nonThemeColor }}>My Recent </span><span style={{ color: uiColor }}>Works</span></h1>
-                    <div>My works makes use of vast variety of latest technology tools. My best experience is to create React projects and deploy them to web applications using Github Pages.</div>
+                    <h1><span style={{ color: nonThemeColor }}>My Recent </span><span style={{ color: uiColor }}>Work</span></h1>
+                    <div>My work leverages a wide range of cutting-edge technology tools. My most valuable experience lies in developing React projects and deploying them as web applications using GitHub Pages.</div>
                 </section>
             </div>
             <ProgrammingSkills />

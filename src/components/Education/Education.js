@@ -20,7 +20,7 @@ function Education(props) {
                 </div>
                 <div className={classes.educationCard}>
                     <h1 style={{color:uiColor}}>Education</h1>
-                    <h2 style={{ color: nonThemeColor }}>Coding Statistics and Certifications</h2>
+                    <h2 style={{ color: nonThemeColor }}>Computer Engineering</h2>
                     <div className={classes.codingInfo}>
                         {
                             languagesDone.map((item,index) =>

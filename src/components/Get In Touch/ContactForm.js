@@ -129,16 +129,6 @@ const ContactForm = (props) => {
                         placeholder="Email"
                         disabled={isSent}
                     />
-                    <input value={enteredPhone}
-                        onBlur={phoneBlurHandler}
-                        onChange={phoneChangedHandler}
-                        type="text"
-                        className={phoneInputClasses}
-                        placeholder="Phone"
-                        minLength={10}
-                        maxLength={12}
-                        disabled={isSent}
-                    /><br />
                     <textarea
                         value={enteredMessage}
                         onBlur={messageBlurHandler}
