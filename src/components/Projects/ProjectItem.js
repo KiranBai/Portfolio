@@ -4,6 +4,7 @@ import classes from "./ProjectItem.module.css";
 import Card from "../UI/Card";
 
 import StarIcon from '@mui/icons-material/Star';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { useSelector } from "react-redux";
 
@@ -27,7 +28,7 @@ const ProjectItem = (props) => {
             <p className={classes.description}>{description}</p>
             <div className={classes.controls}>
                 <div className={classes.projectLink}>
-                    <a target="_blank" rel="noreferrer" href={props.project.sourceLink} style={{ color: nonThemeColor }}><GitHubIcon fontSize="large" /></a>
+                    <a target="_blank" rel="noreferrer" href={props.project.sourceLink} style={{ color: nonThemeColor }}><LinkedInIcon fontSize="large" /></a>
                 </div>
                 <p className={classes.dateUpdated} style={{ color: nonThemeColor }}>Last Updated On : {props.project.lastUpdated}</p>
             </div>

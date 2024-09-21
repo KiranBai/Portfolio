@@ -35,7 +35,6 @@ function Education(props) {
                 </div>
             </div>
             <Degree />
-            <Certifications />
         </Fragment>
     )
 }
